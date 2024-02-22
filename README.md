@@ -76,10 +76,15 @@
 Whether unsupervised or supervised, all machine learning risks losing its relevance because we can simply keep running new models until we find the one we like. In our search for a model nearing 100% accuracy, we have so manipulated the sample data in this exercise that our model no longer provides any real world solutions. "Because machine learning offers a high level of modeling freedom, it tends to overfit the data."[^4] Credit modeling is an excellent example of this danger: We do not need a machine to tells us that an applicant with a lot of money, a little debt, and a history of paying their bills who is financing a fixed asset with solid equity is a good credit risk, but we will continue the search for a magic algorithm to bridge the gap for marginal cases and increasingly risky ventures. In our quest to predict the future, we are tempted to conflate causation and correlation: "A machine learning model, unconstrained by some of the assumptions of classic statistical models, can yield much better insights that a human analyst could not infer from the data."[^4] An example of how seemingly unrelated information can cross categories is the now standard but often unknown practice of considering credit scores when setting insurance rates: "The use of credit in car insurance pricing is controversial for a number of reasons, chief among them is that credit has nothing to do with how you drive."[^5] While overfitting data and crossing categories can result in statistical errors and common nuisances, there is a darker side to eradicating risk; A recent paper from the Federal Reserve Board found that minority applicants "are less likely than white applicants to receive algorithmic approval from race-blind government automated underwriting systems."[^6] 
 
 [^1] https://medium.com/@kennymiyasato/classification-report-precision-recall-f1-score-accuracy-16a245a437a5  
+
 [^2] https://medium.com/analytics-vidhya/accuracy-vs-f1-score-6258237beca2#:~:text=Accuracy%20can%20be%20used%20when,to%20evaluate%20our%20model%20on  
+
 [^3] https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/  
+
 [^4] https://www.moodysanalytics.com/risk-perspectives-magazine/managing-disruption/spotlight/machine-learning-challenges-lessons-and-opportunities-in-credit-risk-modeling  
+
 [^5] https://www.forbes.com/advisor/car-insurance/rate-increase-poor-credit/  
+
 [^6] https://www.federalreserve.gov/econres/feds/files/2022067pap.pdf  
 
 
