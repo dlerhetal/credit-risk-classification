@@ -5,7 +5,7 @@
 
 ## Overview of the Analysis
 
-**Explain the purpose of the analysis.** The purpose of the analysis is to predict whether a loan will be healthy or risky based on 7 discrete variables.  
+**Explain the purpose of the analysis.** The purpose of the analysis is to predict whether a loan will be healthy or risky based on 7 discrete variables: loan_size, interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks, and	total_debt.  
 
 **Explain what financial information the data was on, and what needed to be predicted.** Lending_data.csv contains 77,536 records with 8 fields: loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt, and	loan_status. We need to predict the loan_status field.  
 
