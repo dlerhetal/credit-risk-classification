@@ -1,16 +1,7 @@
 # credit-risk-classification
 
-Module 20 Challenge for Vanderbilt Data Analytics January 2024
-
-There are 3 files and 1 folder located in this repository, as follows:
-
-This README file is in the main directory with credit_risk_classification.ipynb, and lending_data.csv is located in the Resources folder.
-
-Special Recognition: Ahmad Mousa is as passionate and caring as he is knowledgeable, and Joshua Steier never hesitates to help walk us through challenges. Ahmad is the epitome of patience and has now explained to me how to read the confusion_matrix on 3 separate occasions. Now that I have used it extensively for this challenge, it is locked into my long term memory, and I am free to use his time more wisely. 
-
-I always do participate in office hours and study groups while working on projects with collaborators including but not necessarily limited to the following peers: Ilknur Sekmen, Justin Ibeh, Karson Kosek, Kiara Shannon, Luisa Dinwiddie, Margo Berry, Morgan Escue, Morgan Foge, Nathan Johnson, William Brewer, Andrew Clifft, Angela Reed, and Josh Gibson, and I did spend my time in stackoverflow.com, w3schools.com, geeksforgeeks.com, github.com, and bing's new copilot whom I currently consider > google ai; however, the bootcamp has added a new Xpert Learning Assistant, and my life is now complete. Thank you for this resource!
-
-The Google Drive location for this file is as follows: https://drive.google.com/drive/folders/1wCnKcVTe8KK_kTDB7Ftbr18TbKLxdEnN?usp=sharing
+# tl;dr
+**The goal of data analytics** must include providing as clear a picture of reality as is possible without marginalizing opportunities for the entire community. We do not currently have a credit sniffing minority report to tell us which applicant may lose their job, get a divorce, or become ill, and current indicators lead us to believe we likely do not want to live in that reality.
 
 ## Overview of the Analysis
 
@@ -78,7 +69,7 @@ The Google Drive location for this file is as follows: https://drive.google.com/
 
 ## Summary
 
-Whether unsupervised or supervised, all machine learning risks losing its relevance because we can simply keep running new models until we find the one we like. In our search for a model nearing 100% accuracy, we have so manipulated the sample data in this exercise that our model no longer provides any real world solutions. "Because machine learning offers a high level of modeling freedom, it tends to overfit the data."[^4] Credit modeling is an excellent example of this danger: We do not need a machine to tells us that an applicant with a lot of money, a little debt, and a history of paying their bills who is financing a fixed asset with solid equity is a good credit risk, but we will continue the search for a magic algorithm to bridge the gap for marginal cases and increasingly risky ventures. In our quest to predict the future, we are tempted to conflate causation and correlation: "A machine learning model, unconstrained by some of the assumptions of classic statistical models, can yield much better insights that a human analyst could not infer from the data."[^4] An example of how seemingly unrelated information can cross categories is the now standard but often unknown practice of considering credit scores when setting insurance rates: "The use of credit in car insurance pricing is controversial for a number of reasons, chief among them is that credit has nothing to do with how you drive."[^5] While overfitting data and crossing categories can result in statistical errors and common nuisances, there is a darker side to eradicating risk; A recent paper from the Federal Reserve Board found that minority applicants "are less likely than white applicants to receive algorithmic approval from race-blind government automated underwriting systems."[^6] The goal of data analytics must include providing as clear a picture of reality as is possible without marginalizing opportunities for the entire community. We do not currently have a credit sniffing minority report to tell us which applicant may lose their job, get a divorce, or become ill, and current indicators lead us to believe we likely do not want to live in that reality.
+Whether unsupervised or supervised, all machine learning risks losing its relevance because we can simply keep running new models until we find the one we like. In our search for a model nearing 100% accuracy, we have so manipulated the sample data in this exercise that our model no longer provides any real world solutions. "Because machine learning offers a high level of modeling freedom, it tends to overfit the data."[^4] Credit modeling is an excellent example of this danger: We do not need a machine to tells us that an applicant with a lot of money, a little debt, and a history of paying their bills who is financing a fixed asset with solid equity is a good credit risk, but we will continue the search for a magic algorithm to bridge the gap for marginal cases and increasingly risky ventures. In our quest to predict the future, we are tempted to conflate causation and correlation: "A machine learning model, unconstrained by some of the assumptions of classic statistical models, can yield much better insights that a human analyst could not infer from the data."[^4] An example of how seemingly unrelated information can cross categories is the now standard but often unknown practice of considering credit scores when setting insurance rates: "The use of credit in car insurance pricing is controversial for a number of reasons, chief among them is that credit has nothing to do with how you drive."[^5] While overfitting data and crossing categories can result in statistical errors and common nuisances, there is a darker side to eradicating risk; A recent paper from the Federal Reserve Board found that minority applicants "are less likely than white applicants to receive algorithmic approval from race-blind government automated underwriting systems."[^6] 
 
 [^1] https://medium.com/@kennymiyasato/classification-report-precision-recall-f1-score-accuracy-16a245a437a5
 [^2] https://medium.com/analytics-vidhya/accuracy-vs-f1-score-6258237beca2#:~:text=Accuracy%20can%20be%20used%20when,to%20evaluate%20our%20model%20on
@@ -86,3 +77,12 @@ Whether unsupervised or supervised, all machine learning risks losing its releva
 [^4] https://www.moodysanalytics.com/risk-perspectives-magazine/managing-disruption/spotlight/machine-learning-challenges-lessons-and-opportunities-in-credit-risk-modeling
 [^5] https://www.forbes.com/advisor/car-insurance/rate-increase-poor-credit/
 [^6] https://www.federalreserve.gov/econres/feds/files/2022067pap.pdf
+
+
+# Module 20 Challenge for Vanderbilt Data Analytics January 2024
+
+There are 3 files and 1 folder located in this repository, as follows: This README file is in the main directory with credit_risk_classification.ipynb, and lending_data.csv is located in the Resources folder.
+
+**Special Recognition:** Ahmad Mousa is as passionate and caring as he is knowledgeable, and Joshua Steier never hesitates to help walk us through challenges. Ahmad is the epitome of patience and has now explained to me how to read the confusion_matrix on 3 separate occasions. Now that I have used it extensively for this challenge, it is locked into my long term memory, and I am free to use his time more wisely. I always do participate in office hours and study groups while working on projects with collaborators including but not necessarily limited to the following peers: Ilknur Sekmen, Justin Ibeh, Karson Kosek, Kiara Shannon, Luisa Dinwiddie, Margo Berry, Morgan Escue, Morgan Foge, Nathan Johnson, William Brewer, Andrew Clifft, Angela Reed, and Josh Gibson, and I did spend my time in stackoverflow.com, w3schools.com, geeksforgeeks.com, github.com, and bing's new copilot whom I currently consider > google ai; however, the bootcamp has added a new Xpert Learning Assistant, and my life is now complete. Thank you for this resource!
+
+The Google Drive location for this file is as follows: https://drive.google.com/drive/folders/1wCnKcVTe8KK_kTDB7Ftbr18TbKLxdEnN?usp=sharing
