@@ -5,15 +5,15 @@
 
 ## Overview of the Analysis
 
-**Explain the purpose of the analysis.** The purpose of the analysis is to predict whether a loan will be healthy or risky based on 7 discrete variables: loan_size, interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks, and	total_debt.  
+1. **Purpose of the analysis.** The purpose of the analysis is to predict whether a loan will be healthy or risky based on 7 discrete variables: loan_size, interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks, and	total_debt.  
 
-**Explain what financial information the data was on, and what needed to be predicted.** Lending_data.csv contains 77,536 records with 8 fields: loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt, and	loan_status. We need to predict the loan_status field.  
+2. **Available financial information, and what needs to be predicted.** Lending_data.csv contains 77,536 records with 8 fields: loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt, and	loan_status. We need to predict the loan_status field.  
 
-**Provide basic information about the variables to be predicted (e.g., `value_counts`).** The only information we are given is that a loan_status of "0" indicates a loan is healthy (75,036 records) while "1" indicates a loan is risky (2,500 records).  
+3. **Basic information about the variables to be predicted (e.g., `value_counts`).** The only information we are given is that a loan_status of "0" indicates a loan is healthy (75,036 records) while "1" indicates a loan is risky (2,500 records).  
 
-**Describe the stages of the machine learning process encountered as part of this analysis.** We train our model to learn how to predict the loan_status field based on the content of the other 7 fields using the `train-test split` process. We split the records into a training set that studies the pattern which emerges from the data and tests the newly created model on the remaining testing set to find our level of accuracy predicting healthy vs risky loans.  
+4. **Stages of the machine learning process encountered as part of this analysis.** We train our model to learn how to predict the loan_status field based on the content of the other 7 fields using the `train-test split` process. We split the records into a training set that studies the pattern which emerges from the data and tests the newly created model on the remaining testing set to find our level of accuracy predicting healthy vs risky loans.  
 
-**Briefly touch on methods used (e.g., `LogisticRegression`, or any resampling method).** Using `LogisticRegression`, we created a model where we fit the 7 characteristics of a record marked "0" or "1", predicted which of the remaining records would be healthy or risky, tested our model, and displayed the results via the `confusion_matrix` and `classification_report`. We then used the `RandomOverSampler` module from the `imbalanced-learn` library to resample the data, artificially adjusting the labels to have an equal number of data points, and ran the `LogisticRegression` module again, refitted the model, made our new prediction, tested our new model, and displayed the new results via the new `confusion_matrix` and `classification report`.  
+5. **Methods used** (e.g., `LogisticRegression`, or any resampling method). Using `LogisticRegression`, we created a model where we fit the 7 characteristics of a record marked "0" or "1", predicted which of the remaining records would be healthy or risky, tested our model, and displayed the results via the `confusion_matrix` and `classification_report`. We then used the `RandomOverSampler` module from the `imbalanced-learn` library to resample the data, artificially adjusting the labels to have an equal number of data points, and ran the `LogisticRegression` module again, refitted the model, made our new prediction, tested our new model, and displayed the new results via the new `confusion_matrix` and `classification report`.  
 
 ## Results
 
